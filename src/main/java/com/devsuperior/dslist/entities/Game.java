@@ -13,25 +13,27 @@ public class Game {
     private String title;
     @Column(name = "game_year")
     private Integer yaer;
-    private String genere;
+    private String genre;
     private String platforms;
     private Double score;
     private String imgUrl;
-    private String shortDesctription;
+    @Column(columnDefinition = "TEXT")
+    private String shortDescription;
+    @Column(columnDefinition = "TEXT")
     private String longDescription;
 
     public Game() {
     }
 
-    public Game(Long id , String title , Integer yaer , String genere , String platforms , Double score , String imgUrl , String shortDesctription , String longDescription) {
+    public Game(Long id , String title , Integer yaer , String genre , String platforms , Double score , String imgUrl , String shortDescription , String longDescription) {
         this.id = id;
         this.title = title;
         this.yaer = yaer;
-        this.genere = genere;
+        this.genre = genre;
         this.platforms = platforms;
         this.score = score;
         this.imgUrl = imgUrl;
-        this.shortDesctription = shortDesctription;
+        this.shortDescription = shortDescription;
         this.longDescription = longDescription;
     }
 
@@ -47,8 +49,8 @@ public class Game {
         return yaer;
     }
 
-    public String getGenere() {
-        return genere;
+    public String getGenre() {
+        return genre;
     }
 
     public String getPlatforms() {
@@ -63,8 +65,8 @@ public class Game {
         return imgUrl;
     }
 
-    public String getShortDesctription() {
-        return shortDesctription;
+    public String getShortDescription() {
+        return shortDescription;
     }
 
     public String getLongDescription() {
@@ -83,8 +85,8 @@ public class Game {
         this.yaer = yaer;
     }
 
-    public void setGenere(String genere) {
-        this.genere = genere;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
     public void setPlatforms(String platforms) {
@@ -99,8 +101,8 @@ public class Game {
         this.imgUrl = imgUrl;
     }
 
-    public void setShortDesctription(String shortDesctription) {
-        this.shortDesctription = shortDesctription;
+    public void setShortDescription(String shortDescription) {
+        this.shortDescription = shortDescription;
     }
 
     public void setLongDescription(String longDescription) {
