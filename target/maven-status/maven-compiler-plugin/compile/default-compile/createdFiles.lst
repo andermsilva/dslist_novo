@@ -1,0 +1,15 @@
+com\devsuperior\dslist\projections\GameMinProjection.class
+com\devsuperior\dslist\entities\GameList.class
+com\devsuperior\dslist\controllers\GameListController.class
+com\devsuperior\dslist\entities\BelongingPk.class
+com\devsuperior\dslist\controllers\GameController.class
+com\devsuperior\dslist\dto\GameDTO.class
+com\devsuperior\dslist\entities\Belonging.class
+com\devsuperior\dslist\repositories\GameListRepository.class
+com\devsuperior\dslist\repositories\GameRepository.class
+com\devsuperior\dslist\DslistApplication.class
+com\devsuperior\dslist\dto\GameListDTO.class
+com\devsuperior\dslist\services\GameService.class
+com\devsuperior\dslist\dto\GameMinDTO.class
+com\devsuperior\dslist\entities\Game.class
+com\devsuperior\dslist\services\GameListService.class

@@ -1,0 +1,15 @@
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\controllers\GameController.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\controllers\GameListController.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\DslistApplication.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\dto\GameDTO.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\dto\GameListDTO.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\dto\GameMinDTO.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\entities\Belonging.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\entities\BelongingPk.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\entities\Game.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\entities\GameList.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\projections\GameMinProjection.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\repositories\GameListRepository.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\repositories\GameRepository.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\services\GameListService.java
+E:\IDE\dslist_novo\src\main\java\com\devsuperior\dslist\services\GameService.java
