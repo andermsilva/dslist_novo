@@ -1,7 +1,6 @@
 package com.devsuperior.dslist.dto;
 
 import com.devsuperior.dslist.entities.GameList;
-import org.springframework.beans.BeanUtils;
 
 public class GameListDTO {
     private Long id;
